@@ -17,7 +17,7 @@ p {
   background: -webkit-linear-gradient(to top, #ffc34d, #ffc34d);
   background: -moz-linear-gradient(to top, #ffc34d, #ffc34d);
   background: -o-linear-gradient(to top, #ffc34d, #ffc34d);
-  background: linear-gradient(to top, #ffc34d, #8DC26F);
+  background: linear-gradient(to top, #ffc34d, #226D2C);
   background-size: cover;
   background-attachment: fixed;
   font-family: 'Roboto', sans-serif;
@@ -27,10 +27,10 @@ p {
   }
   
   .nav li {
-      color: white;
+    color: white;
     display: inline-block;
-    font-size: 20px;
-     padding: 20px; 
+    font-size: 22px;
+     padding: 25px; 
 
 
   }
@@ -73,7 +73,9 @@ p {
       margin: 2em;
       width:70%;
       padding: 0;
-      height: 50%;    
+      height: 50%; 
+      opacity: 1;
+      transition: 0.2s;   
   }
 
 
@@ -85,8 +87,9 @@ p {
   }
 
   input:hover{
-    width: 80%;
-    height: 60%;
+    opacity: 0.8;
+    width:80%;
+    height: 60%; 
   }
   
 

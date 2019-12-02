@@ -24,8 +24,9 @@ class MainController extends Controller
             array('form' => $form->createView())
         );*/
     }
+    
     /**
-     * @Route("/gadget", name="gadget")
+     * @Route("/gadgetMenu", name="gadget")
      */
     public function goToGadget()
     {
